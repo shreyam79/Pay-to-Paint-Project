@@ -6,18 +6,18 @@ def onAppStart(app):
     app.currentScreen = HomeScreen()
     app.width = 600
     app.height = 400
-    app.imageUrls = []
-    baseUrl = 'https://raw.githubusercontent.com/shreyam79/112Pay-to-Paint_Images/master'
-    app.imageUrls.append(baseUrl + '/112Project_coin_image.png')
-    app.imageUrls.append(baseUrl + '/basketImage.png')
-    app.imageUrls.append(baseUrl + '/bombImage.png')
-    app.imageUrls.append(baseUrl + '/presentImage.png')
-    app.imageUrls.append(baseUrl + '/flowerImage.png')
-    app.imageUrls.append(baseUrl + '/image (5).png')
-    app.imageUrls.append(baseUrl + '/lockImage.png')
-    app.imageUrls.append(baseUrl + '/completedPresent.png')
-    app.imageUrls.append(baseUrl + '/completedFlower.png')
-    app.imageUrls.append(baseUrl + '/completedTree.png')
+    app.imageUrls = [
+    "images/112Project_coin_image.png",
+    "images/basketImage.png",
+    "images/bombImage.png",
+    "images/presentImage.png",
+    "images/flowerImage.png",
+    "images/image (5).png",
+    "images/lockImage.png",
+    "images/completedPresent.png",
+    "images/completedFlower.png",
+    "images/completedTree.png"
+]
     app.coins = 0
     app.extraLifePowerup = False
     app.multiplierOn = False
