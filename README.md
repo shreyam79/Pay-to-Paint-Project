@@ -35,7 +35,7 @@ In the game, players earn coins to purchase paints and power-ups, and complete 3
 
 These shortcuts are included to simplify testing:
 
-- Press **`c`** → Gain 500 coins instantly (skip minigame grinding)
+- Press **`c`** → Gain 500 coins instantly
 - Press **`1`** → Automatically complete Picture 1
 - Press **`2`** → Automatically complete Picture 2
 - Press **`3`** → Automatically complete Picture 3
